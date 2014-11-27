@@ -14,7 +14,7 @@ to see the HTTP-response from django respectively Tornado.
 Settings
 --------
 
-You don't have to change anything to run this with your own djano project, but this line:
+You don't have to change anything to run this with your own djano project, but this line in `run_tornado.py`:
 
 ```python
 os.environ['DJANGO_SETTINGS_MODULE'] = 'demosite.settings' # TODO: edit this
