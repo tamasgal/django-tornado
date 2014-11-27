@@ -9,7 +9,7 @@ or
 
   [http://localhost:8080/hello-tornado](http://localhost:8080/hello-tornado)
 
-to see the HTTP-response from django respectively Tornado.
+to see an HTTP-response from django, respectively Tornado.
 
 Settings
 --------
