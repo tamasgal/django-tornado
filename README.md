@@ -25,3 +25,6 @@ tornado_app = tornado.web.Application(
         ('/hello-tornado', HelloHandler),
         ('.*', tornado.web.FallbackHandler, dict(fallback=container)),
     ])
+```
+
+Notice that in this example, all requests but `/hello-tornado` will be redirected to django.
