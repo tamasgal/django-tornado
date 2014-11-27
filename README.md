@@ -1,7 +1,15 @@
 django-tornado
 ==============
 
-An example how to run django on Tornado. Simply run `run_tornado.py` and navigate your browser to http://localhost:8080/hello-django or http://localhost:8080/hello-tornado to see the HTTP-response from django respectively Tornado.
+An example how to run django on Tornado. Simply run `run_tornado.py` and navigate your browser to
+
+  (http://localhost:8080/hello-django)
+
+or
+
+  (http://localhost:8080/hello-tornado)
+
+to see the HTTP-response from django respectively Tornado.
 
 Settings
 --------
@@ -19,7 +27,7 @@ Tornado handlers
 
 To hook up Tornado handlers, use the common workflow:
 
-```
+```python
 tornado_app = tornado.web.Application(
     [
         ('/hello-tornado', HelloHandler),
