@@ -40,7 +40,7 @@ Notice that in this example, all requests but `/hello-tornado` will be redirecte
 Requirements
 ------------
 
-You'll obviously need the django and tornado Python-modules to run this demo ;-) You can install them quickliy using `pip` and the provided `requirements.txt`. I recommend creating a virtual environment for every project you're working on.
+You'll obviously need the django and tornado Python-modules to run this demo ;-) You can install them quickly using `pip` and the provided `requirements.txt`. I recommend creating a virtual environment for every project you're working on.
 
 `pip install -r requirements.txt`
 
